@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Twitter</title>
+  <link rel="shortcut icon" type="image/png" href="img/twitter.jpg"/>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="fonts/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="container">
+    <h1 class="img1">Todo APP</h1>
+  </header>
+  <section>
+    <div class="container">
+      <div class="row">
+        <textarea type="text" rows="2" cols="50" id="tareaAgregada" class="form-control" placeholder="Añade tu nueva tarea"></textarea>
+        <span onclick="todoApp()" class="btn btn-primary">
+        <i class="fa fa-plus" aria-hidden="true">Añadir Tarea</i></span>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <ul id="listaNueva"></ul>
+    </div>
+  </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
+
