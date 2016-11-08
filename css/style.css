@@ -1,1 +1,24 @@
-
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-color: rgb(245, 248, 250);
+    color: rgb(41, 47, 51);
+}
+.img1{
+    background-image: url(../img/three.jpg);
+    padding: 1%;
+    font-size: 25px;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.meGusta{
+	color:red;
+}
+.marcar{
+	text-decoration: line-through;
+}
